@@ -1,0 +1,27 @@
+body {
+    margin: 100px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    background-color: rgb(20, 38, 84);
+    color: white;
+}
+
+button {
+    font-size: 1em;
+    font-weight: 600;
+    text-decoration: none;
+    width: 15em;
+    padding: 0.5em 2em;
+    border: 0;
+    border-radius: 6px;
+    background: rgb(210,255,229);
+    background: linear-gradient(180deg, rgba(255, 210, 210, 0.932) 0%, rgba(142,251,58,1) 100%);
+
+}
+
+button:hover {
+    color: white;
+    cursor: pointer;
+}
